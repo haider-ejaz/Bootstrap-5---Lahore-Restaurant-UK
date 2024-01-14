@@ -1,0 +1,349 @@
+:root {
+
+    --primary-font: 'Suisse Intl';
+    --secondary-font: 'Recoleta';
+
+    --primary-color: #01102F;
+    --secondary-color: #151515;
+    --red-color: #D1222C;
+    --gray-color: #BEBEBE;
+    --white-color: #FFFFFF;
+    --sky-blue-color: #8FC1FF;
+    --light-green-color: #D1E758;
+    --black-color: #000000;
+}
+
+
+/* Commons */
+
+body {
+    font-family: var(--primary-font);
+}
+
+a {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.btn {
+    text-decoration: none;
+}
+
+a:focus,
+.btn:focus,
+.navbar-toggler:focus,
+.offcanvas-header .btn-close:focus {
+    box-shadow: none;
+}
+
+a:focus,
+.btn:focus-visible,
+.navbar-toggler:focus-visible,
+.offcanvas-header .btn-close:focus-visible {
+    outline: none;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-light-green {
+    background-color: var(--light-green-color);
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 12px;
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--white-color);
+    padding: 16.5px 33px;
+}
+
+.btn-secondary {
+    background: var(--white-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 12px;
+    color: var(--secondary-color);
+    font-weight: 700;
+    font-size: 17px;
+    padding: 18px 33px 15px;
+}
+
+.btn-light-green,
+.btn-light-green:active,
+.btn-light-green:focus {
+    background: var(--light-green-color);
+    border-color: var(--light-green-color);
+    border-radius: 12px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 17px;
+    padding: 12px 25px;
+}
+
+.btn-light-green:hover {
+    background: var(--light-green-color);
+    border-color: var(--light-green-color);
+    color: var(--white-color);
+}
+
+.btn-red {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: var(--white-color);
+    background: var(--red-color);
+    border-color: var(--red-color);
+    border-radius: 12px;
+    padding: 16.5px 32.5px;
+}
+
+.section-title {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+
+.heading-1 {
+    font-size: 80px;
+    line-height: 85px;
+}
+
+.heading-2 {
+    font-size: 55px;
+    line-height: 65px;
+}
+
+.heading-3 {
+    font-size: 42px;
+    line-height: 57px;
+}
+
+.heading-4 {
+    font-size: 35px;
+    line-height: 48px;
+}
+
+.heading-5 {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.heading-6 {
+    font-size: 22px;
+    line-height: 41px;
+}
+
+.hero-banner-with-centered-text {
+    position: relative;
+    margin-top: 104px;
+    text-align: center;
+}
+
+.hero-banner-with-centered-text img {
+    width: 100%;
+}
+
+.hero-banner-with-centered-text .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-banner-with-centered-text .section-title {
+    color: var(--white-color);
+}
+
+.login-register-form {
+    background: url(../images/bg-8.png) center center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.form-style-1 .form-control {
+    background: #F3F3F3;
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 16px;
+    padding: 11px 17px;
+}
+
+.form-style-1 .form-control::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    color: #797979;
+}
+
+.form-style-1 textarea.form-control {
+    resize: none;
+}
+
+[class*="form-style-"] .btn-primary {
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px; 
+}
+
+.form-style-2 {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(219, 219, 219, 0.25);
+    border: none;
+    border-radius: 30px;
+}
+
+.form-style-2 .card-body {
+    padding: 30px 20px;
+}
+
+.form-style-2 .form-control {
+    background: #FFFFFF;
+    border: 1px solid #D6D6D6;
+    border-radius: 8px;
+    padding: 15px 20px;
+}
+
+.form-style-2 .form-text {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+}
+
+.form-style-2 .form-check-input {
+    margin-top: -3px;
+    background: #E4E4E4;
+    border-radius: 5px;
+    border: none;    
+    accent-color: var(--primary-color);;
+}
+
+.form-style-2 .form-check-input + .form-check-label {
+    display: flex;
+    margin-top: 0;
+    margin-left: 10px;
+}
+
+.form-style-2 [class*="col-"] > .form-link {
+    text-align: right;
+}
+
+.form-style-2 [class*="col-"] > .form-link a {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.two-btns-group {
+    margin-top: 40px;
+}
+
+.two-btns-group .btn-group .btn:nth-child(2) {
+    border: 1px solid var(--primary-color);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+/* Header Navigation */
+
+header .navbar .navbar-brand img {
+    width: 159px;
+    height: 87px;
+}
+
+header .navbar-nav .nav-item:hover .nav-link,
+header .navbar .btn-link:hover {
+    color: var(--light-green-color);
+}
+
+header .navbar-nav .nav-item .nav-link,
+header .navbar .btn-link {
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+header .navbar .cart-icon-link {
+    align-items: center;
+}
+
+header .navbar .cart-icon-link img {
+    width: 22px;
+    height: 22.44px;
+}
+
+
+
+
+
+/* Footer and Navigation */
+
+footer {
+    background: var(--secondary-color);
+    padding: 60px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .row + .row {
+    margin-top: 50px;
+}
+
+footer .brand-logo {
+    width: 310px;
+    max-width: 100%;
+}
+
+footer .footer-section-wrapper + .footer-section-wrapper {
+    margin-top: 50px;
+}
+
+footer .footer-section-title {
+    color: var(--light-green-color);
+    font-family: var(--secondary-font);
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .list-group {
+    line-height: 2;
+}
+
+footer .list-group .list-group-item {
+    color: var(--white-color);
+    background: transparent;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 0;
+}
+
+footer .footer-text {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2;
+}
+
+footer .list-group-horizontal .list-group-item + .list-group-item {
+    margin-left: 15px;
+}
+
+footer .copyright-text {
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--white-color);
+}
+
+footer .payment-gateways {
+    width: 346px;
+    max-width: 100%;
+}

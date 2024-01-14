@@ -1,0 +1,8 @@
+@font-face {font-family: "Suisse Intl";
+    src: url("13ab13418f633c1b0516fed6e30bedbc.eot"); /* IE9*/
+    src: url("13ab13418f633c1b0516fed6e30bedbc.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("13ab13418f633c1b0516fed6e30bedbc.woff2") format("woff2"), /* chrome、firefox */
+    url("13ab13418f633c1b0516fed6e30bedbc.woff") format("woff"), /* chrome、firefox */
+    url("13ab13418f633c1b0516fed6e30bedbc.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("13ab13418f633c1b0516fed6e30bedbc.svg#Suisse Int'l") format("svg"); /* iOS 4.1- */
+}
