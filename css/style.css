@@ -279,7 +279,310 @@ header .navbar .cart-icon-link img {
     height: 22.44px;
 }
 
+/* Home Section 1 - Hero Banner */
 
+#home-section-1 {
+    margin-top: 104px;
+    padding-bottom: 50px;
+}
+
+.hero-banner-style-1 {
+    background: url(../images/bg-1.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.hero-banner-style-1 .row {
+    position: relative;
+}
+
+.hero-banner-style-1 .title-col {
+    height: max-content;
+}
+
+.hero-banner-style-1 .section-title {
+    color: var(--white-color);
+    margin-top: 80px;
+    /* font-size: 40px;
+    line-height: 1.5; */
+}
+
+.hero-banner-style-1 .section-title span {
+    color: var(--light-green-color);
+}
+
+.hero-banner-style-1 .hero-image img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 40px;
+}
+
+.hero-banner-style-1 .btn-group .btn,
+.two-btns-group .btn-group .btn {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    flex: 1 1 50%;
+    width: 147px;
+    height: 55px;
+}
+
+.hero-banner-style-1 .details-col p {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.hero-banner-style-1 .details-col .input-group {
+    display: flex;
+    align-items: center;
+    position: relative;   
+}
+
+.hero-banner-style-1 .details-col .input-group::after {
+    content: url(../images/post-code-icon.svg);
+    position: absolute;
+    right: 25px;
+    display: flex;
+    z-index: 3;
+}
+
+.hero-banner-style-1 .details-col .input-group .form-control {
+    background: var(--white-color);
+    border: 1px solid var(--secondary-color);
+    border-radius: 12px;
+    color: var(--primary-color);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 17px 60px 17px 30px;
+}
+
+.hero-banner-style-1 .details-col .input-group .form-control::placeholder {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: var(--gray-color);
+}
+
+.hero-banner-style-1 .rating-group-wrapper {
+    align-items: center;
+}
+
+.hero-banner-style-1 .rating-group-wrapper .dps-rated {
+    width: 88px;
+    height: 44px;
+}
+
+.hero-banner-style-1 .rating-group-wrapper .rating-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.hero-banner-style-1 .rating-group-wrapper .rating-wrapper h6 {
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 17px;
+    margin: 5px 0 0;
+}
+
+.hero-banner-style-1 .rating-group-wrapper .rating-stars {
+    width: 95px;
+    height: 15px;
+}
+
+
+/* Home Section 2 - Two Col Text Style 1 */
+
+.two-col-text-style-1 {
+    background: linear-gradient(90deg, rgba(241,248,255,1) 50%, rgba(221,236,255,1) 50%);
+}
+
+.two-col-text-style-1 .row .col-xl-6:first-child {
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.two-col-text-style-1 .row .col-xl-6:first-child .section-title {
+    margin-bottom: 20px;
+}
+
+.two-col-text-style-1 .row .col-xl-6:first-child .section-sub-title {
+    font-weight: 400;
+    color: var(--black-color);
+    margin-bottom: 25px;
+}
+
+.two-col-text-style-1 .row .col-xl-6:nth-child(2) {
+    padding: 50px 100px;
+}
+
+.two-col-text-style-1 .row .col-xl-6:nth-child(2) .section-title {
+    display: flex;
+}
+
+.two-col-text-style-1 .row .col-xl-6:nth-child(2) .section-title img {
+    margin-right: 15px;
+}
+
+.inline-heading-text-group.list-group .list-group-item {
+    background: transparent;
+    border: none;
+    color: var(--secondary-color);
+    font-size: 20px;
+    line-height: 41px;
+    padding: 0;
+}
+
+
+/* Home Section 3 - Two Col Text with Image Style 1 */
+
+.two-col-text-with-image-style-1 {
+    background: url(../images/bg-2.png) center center no-repeat;
+    background-size: cover;
+}
+
+.two-col-text-with-image-style-1 .row {
+    position: relative;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.two-col-text-with-image-style-1 .text-col-1 {
+    height: max-content;
+}
+
+.two-col-text-with-image-style-1 .section-sub-title {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+}
+
+.two-col-text-with-image-style-1 p {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.two-col-text-with-image-style-1 img {
+    width: 482px;
+    max-width: 100%;
+}
+
+
+/* Home Section 4 - Icon Card with Text Style 1 */
+
+#home-section-4 {
+    margin-top: 130px;
+    padding-bottom: 50px;
+}
+
+.icon-card-with-text-style-1 .row [class*="col-"] {
+    margin-top: 30px;
+}
+
+.icon-card-with-text-style-1 .card {
+    border: none;
+    align-items: center;
+}
+
+.icon-card-with-text-style-1 .card .card-img-top {
+    width: 214px;
+}
+
+.icon-card-with-text-style-1 .card .card-body {
+    text-align: center;
+}
+
+.icon-card-with-text-style-1 .card .card-title {
+    color: var(--secondary-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin-bottom: 20px;
+}
+
+.icon-card-with-text-style-1 .card .card-text {
+    color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+/* Home Section 5 - Images Gallery Style 1 */
+
+#home-section-5 {
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+.images-gallery-style-1 .images-row [class*="col-"] {
+    margin-top: 30px;
+}
+
+.images-gallery-style-1 .row .image-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.images-gallery-style-1 .row .image-wrapper img {
+    border-radius: 15px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.images-gallery-style-1 .row .image-wrapper .text-with-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: linear-gradient(0deg, #1E1E1E 0%, rgba(21, 21, 21, 0) 100%);
+    border-radius: 15px;
+}
+
+.images-gallery-style-1 .row .image-wrapper:hover .text-with-overlay {
+    opacity: 1;
+}
+
+.images-gallery-style-1 .row .image-wrapper .section-sub-title {
+    color: var(--white-color);
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+}
+
+
+/* Home Section 6 - Text with CTA Style 1 */
+
+.text-with-cta-style-1 {
+    background: url(../images/bg-3.png) center center no-repeat;
+    background-size: cover;
+    padding: 80px 0;
+}
+
+.text-with-cta-style-1 .section-title {
+    color: var(--light-green-color);
+    margin-bottom: 20px;
+}
+
+.text-with-cta-style-1 .section-sub-title {
+    color: var(--white-color);
+    margin-bottom: 30px;
+}
 
 
 
