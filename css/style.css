@@ -584,6 +584,15 @@ header .navbar .cart-icon-link img {
     margin-bottom: 30px;
 }
 
+/* Gallery Section 2 - Images Gallery Style 1 */
+
+#gallery-section-2 {
+    margin-top: 50px;
+    padding-bottom: 80px;
+}
+
+
+
 
 
 /* Footer and Navigation */
@@ -591,9 +600,9 @@ header .navbar .cart-icon-link img {
 footer {
     background: var(--secondary-color);
     padding: 60px 0;
-    position: absolute;
+    /* position: absolute;
     bottom: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 footer .row + .row {
