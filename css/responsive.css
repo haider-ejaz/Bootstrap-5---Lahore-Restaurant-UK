@@ -311,6 +311,16 @@
     }
 
 
+    /* Privacy Policy Section 2 - Main Content Text */
+    
+    .main-content-text .section-title.heading-2 {
+        font-size: 30px;
+    }
+
+    .main-content-text .section-title.heading-3 {
+        font-size: 23px;
+    }
+
     
 
     /* Footer and Navigation */
