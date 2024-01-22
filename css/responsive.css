@@ -322,6 +322,16 @@
     }
 
     
+    /* Reviews Section 2 - Reviews Style 1 */
+
+    .reviews-style-1 .card .date-wrapper {
+        text-align: left;
+    }
+
+    .reviews-style-1 .card .date-wrapper {
+        margin-top: 25px;
+    }
+    
 
     /* Footer and Navigation */
 
