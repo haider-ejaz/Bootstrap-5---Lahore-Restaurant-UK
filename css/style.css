@@ -685,6 +685,37 @@ header .navbar .cart-icon-link img {
 }
 
 
+/* Contact Section 2 - Contact Details with Form */
+
+.contact-details-with-form {
+    background: url(../images/bg-8.png) center center no-repeat;
+    background-size: cover;
+    padding: 90px 0;
+}
+
+.contact-details-with-form .parent-card {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 16px rgba(214, 214, 214, 0.25);
+    border: none;
+    border-radius: 15px;
+}
+
+.contact-details-with-form .parent-card .card {
+    border-radius: 15px;
+    border: none;
+}
+
+.contact-details-with-form .parent-card .card .card-body {
+    padding: 30px 40px 80px;
+}
+
+.contact-details-with-form .parent-card [class*="col-"]:nth-child(2) .card-body {
+    padding-bottom: 20px;
+}
+
+.contact-details-with-form .parent-card .card .inline-heading-text-group .list-group-item:nth-last-child(2) {
+    margin-top: 20px;
+}
 
 
 /* Footer and Navigation */
