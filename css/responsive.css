@@ -77,6 +77,35 @@
         margin-top: 50px;
     }
 
+    /* Order Section 2 - Main Order Section */
+
+    .main-order-section {
+        border-top: 1px solid #E4E4E4;
+        margin-top: 40px;
+    }
+
+    .main-order-section .nav-tabs-group-col {
+        border-right: 1px solid #E4E4E4;
+        padding-right: 0;
+    }
+
+    .main-order-section .nav-tabs-group-col .section-title {
+        display: block;
+    }
+
+    .main-order-section .responsive-tabs .nav-tabs,
+    .main-order-section .responsive-tabs .nav-pills {
+        display: flex;
+    }    
+
+    .main-order-section .responsive-tabs .card .card-header {
+        display: none;
+    }
+
+    .main-order-section .responsive-tabs .card .collapse {
+        display: block;
+    }
+
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
@@ -321,7 +350,7 @@
         font-size: 23px;
     }
 
-    
+
     /* Reviews Section 2 - Reviews Style 1 */
 
     .reviews-style-1 .card .date-wrapper {
@@ -331,6 +360,7 @@
     .reviews-style-1 .card .date-wrapper {
         margin-top: 25px;
     }
+
 
     /* Contact Section 2 - Contact Details with Form */
 
@@ -342,6 +372,35 @@
         padding: 30px 0 20px;
     }
 
+
+    /* Order Section 2 - Main Order Section */
+
+    .main-order-section .main-menu-content-column {
+        padding: 0;
+    }
+
+    .main-order-section .responsive-tabs {
+        margin-top: 10px;
+    }
+
+    .main-order-section .responsive-tabs .tab-pane {
+        display: block !important;
+        opacity: 1;
+    }
+
+    .main-order-section .responsive-tabs .title-search-bar {
+        display: none;
+    }
+
+    .main-order-section .cart-col {
+        border: none;
+    }
+
+    .main-menu-content .menu-card .add-quantity-wrapper {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
 
     /* Footer and Navigation */
 
