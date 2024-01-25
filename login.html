@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Title -->
+    <title>Login - Lahore Restaurants UK</title>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="fonts/suisse-intl/stylesheet.css" />
+    <link rel="stylesheet" href="fonts/recoleta/stylesheet.css" />
+
+    <!-- Font Awesome Icons -->
+    <script src="js/font-awesome.min.js"></script>
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Custom Stylesheets -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav class="navbar navbar-dark bg-primary fixed-top navbar-expand-xl">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/lahore-restaurant-logo.png" alt="">
+                    <!-- <img src="" alt=""> -->
+                </a>
+                <div class="wrapper d-flex">
+                    <a href="#" class="btn btn-link cart-icon-link d-flex d-xl-none" tabindex="-1" role="button"
+                        aria-disabled="true">
+                        <img src="images/cart.svg" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <img src="images/burger-icon.svg" alt="">
+                    </button>
+                </div>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                    </div>
+                    <div class="offcanvas-body">
+
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="order.html">Order</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="reviews.html">Reviews</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+
+                        <div
+                            class="navbar-extra d-flex justify-content-center d-xl-flex justify-content-xl-end align-items-center gap-2">
+
+                            <a href="#" class="btn btn-link cart-icon-link d-none d-xl-block" tabindex="-1"
+                                role="button" aria-disabled="true">
+                                <img src="images/cart.svg" alt="">
+                            </a>
+                            <a href="login.html" class="btn btn-link" tabindex="-1" role="button" aria-disabled="true">Login</a>
+                            <a href="register.html" class="btn btn-light-green" tabindex="-1" role="button"
+                                aria-disabled="true">Register</a>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Login Section 1 - Hero Banner with Centered Text -->
+    <section class="hero-banner-with-centered-text">
+        <img class="d-none d-sm-block" src="images/bg-9.png" alt="">
+        <img class="d-block d-sm-none" src="images/bg-4-mob.png" alt="">
+        <div class="centered">
+            <h1 class="section-title heading-1">
+                Login
+            </h1>
+        </div>
+    </section>
+
+    <!-- Login Section 2 - Login Form -->
+    <section class="login-register-form">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-6 mx-auto">
+                    <div class="card form-style-2">
+                        <div class="card-body">
+
+                            <form class="row g-3">
+                                <div class="col-12">
+                                    <h3 class="section-title heading-3 text-center">Account Login</h3>
+                                    <div class="form-text text-center">
+                                        Enter your account details for login
+                                        <br>
+                                        your account
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <input type="email" class="form-control" placeholder="Email Address">
+                                </div>
+                                <div class="col-12">
+                                    <input type="password" class="form-control" placeholder="Password">
+                                </div>
+                                <div class="col-xl-6 d-flex align-items-center">
+                                    <input type="checkbox" class="form-check-input">
+                                    <label class="form-check-label form-text">Remember Me</label>
+                                </div>
+                                <div class="col-xl-6">
+                                    <div class="form-link">
+                                        <a href="#">Forgot Password?</a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary">Sign In</button>
+                                </div>
+
+                                <div class="col-12 text-center mt-4">
+                                    <div class="form-text">Don’t Have Account? <a href="register.html">Register Here</a></div>
+                                </div>
+                            </form>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer and Navigation -->
+    <footer>
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-xl-4 brand-logo-col">
+                    <a href="index.html">
+                        <img class="brand-logo" src="images/lahore-rest-logo-footer.png" alt="">
+                    </a>
+                </div>
+
+                <div class="col-6 col-xl-2">
+
+                    <div class="footer-section-wrapper">
+                        <h6 class="footer-section-title">
+                            Our Restaurants
+                        </h6>
+                        <ul class="list-group list-group-flush">
+                            <a href="#" class="list-group-item">Menu</a>
+                            <a href="gallery.html" class="list-group-item">Gallery</a>
+                            <a href="reviews.html" class="list-group-item">Reviews</a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section-wrapper">
+                        <h6 class="footer-section-title">
+                            Menus
+                        </h6>
+                        <ul class="list-group list-group-flush">
+                            <a href="#" class="list-group-item">Starters</a>
+                            <a href="#" class="list-group-item">Rolls</a>
+                            <a href="#" class="list-group-item">Vegetable Main Dish</a>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-6 col-xl-2">
+                    <div class="footer-section-wrapper">
+                        <h6 class="footer-section-title">
+                            My Account
+                        </h6>
+                        <ul class="list-group list-group-flush">
+                            <a href="login.html" class="list-group-item">Login</a>
+                            <a href="register.html" class="list-group-item">Register</a>
+                            <a href="#" class="list-group-item">Cart</a>
+                        </ul>
+                    </div>
+
+                    <div class="footer-section-wrapper">
+                        <h6 class="footer-section-title">
+                            Important Links
+                        </h6>
+                        <ul class="list-group list-group-flush">
+                            <a href="privacy-policy.html" class="list-group-item">Privacy Policy</a>
+                            <a href="terms-and-conditions.html" class="list-group-item">Terms & Conditions</a>
+                            <a href="#" class="list-group-item">FAQ</a>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-xl-4">
+
+                    <div class="footer-section-wrapper">
+                        <h6 class="footer-section-title">
+                            Get In Touch
+                        </h6>
+                        <p class="footer-text">
+                            info@lahorerestaurant.co.uk
+                            <br>
+                            312 St Albans Road Watford
+                            <br>
+                            WD24 6PQ
+                            <br>
+                            01923221322, 01923244221
+                        </p>
+                    </div>
+
+                    <div class="footer-section-wrapper" style="margin-top: 20px;">
+                        <h6 class="footer-section-title">
+                            Follow Us
+                        </h6>
+                        <ul class="list-group list-group-flush list-group-horizontal">
+
+                            <a href="#" class="list-group-item">
+                                <img src="images/fb.svg" alt="">
+                            </a>
+
+                            <a href="#" class="list-group-item">
+                                <img src="images/tw.svg" alt="">
+                            </a>
+
+                            <a href="#" class="list-group-item">
+                                <img src="images/ig.svg" alt="">
+                            </a>
+
+                            <a href="#" class="list-group-item">
+                                <img src="images/pi.svg" alt="">
+                            </a>
+
+                            <a href="#" class="list-group-item">
+                                <img src="images/yt.svg" alt="">
+                            </a>
+
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-xl-4 order-2 order-xl-1">
+                    <p class="copyright-text">© 2022 Lahore Restaurant</p>
+                </div>
+                <div class="col-xl-4 d-none d-xl-block order-xl-2"></div>
+                <div class="col-xl-4 order-1 order-xl-3">
+                    <img class="payment-gateways" src="images/payment-gateways.png" alt="">
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+
+    <!-- Bootstrap 5 Bundle JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
